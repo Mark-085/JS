@@ -36,3 +36,29 @@ console.log(typeof myFunction)
 myFunction()
 console.log(typeof bigNumber)
 console.log(typeof anotherId)
+
+
+
+
+//************************** MEMORY***************
+// Stack(Primitive)->copy  ,  Heap(Non-Primitive)->actual value
+
+let myYoutubeChannel="sandeshrajput"
+let anotherName=myYoutubeChannel
+anotherName="chaiaurcode"
+
+console.log(myYoutubeChannel)
+console.log(anotherName)
+
+
+
+let userOne = {
+   email:"ssr@gmail.com",
+   age:22
+}
+
+let userTwo = userOne
+userTwo.email="sandesh@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
